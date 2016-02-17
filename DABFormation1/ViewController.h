@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "IndividuDelegate.h"
+#import "AddPersonViewController.h"
 
-@interface ViewController : UIViewController <IndividuDelegate>
+@interface ViewController : UIViewController <IndividuDelegate, AddPersonViewControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
 
 @end
 

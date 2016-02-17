@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A70D7D2D1C6B8A04001B7130 /* Person+PersonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D7D2C1C6B8A04001B7130 /* Person+PersonAdditions.m */; };
 		A75B71F81C6B397000F6D65F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A75B71F71C6B397000F6D65F /* main.m */; };
 		A75B71FB1C6B397000F6D65F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A75B71FA1C6B397000F6D65F /* AppDelegate.m */; };
 		A75B71FE1C6B397000F6D65F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75B71FD1C6B397000F6D65F /* ViewController.m */; };
@@ -16,11 +15,10 @@
 		A75B72061C6B397100F6D65F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75B72051C6B397100F6D65F /* Assets.xcassets */; };
 		A75B72091C6B397100F6D65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B72071C6B397100F6D65F /* LaunchScreen.storyboard */; };
 		A75B72181C6B576700F6D65F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A75B72171C6B576700F6D65F /* Person.m */; };
+		A7AE677D1C74C4B50065615C /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE677C1C74C4B50065615C /* AddPersonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A70D7D2B1C6B8A04001B7130 /* Person+PersonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+PersonAdditions.h"; sourceTree = "<group>"; };
-		A70D7D2C1C6B8A04001B7130 /* Person+PersonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+PersonAdditions.m"; sourceTree = "<group>"; };
 		A75B71F31C6B397000F6D65F /* DABFormation1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABFormation1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75B71F71C6B397000F6D65F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A75B71F91C6B397000F6D65F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +33,8 @@
 		A75B72151C6B4C7A00F6D65F /* IndividuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndividuDelegate.h; sourceTree = "<group>"; };
 		A75B72161C6B576700F6D65F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A75B72171C6B576700F6D65F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A7AE677B1C74C4B50065615C /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		A7AE677C1C74C4B50065615C /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +71,9 @@
 				A75B71FA1C6B397000F6D65F /* AppDelegate.m */,
 				A75B71FC1C6B397000F6D65F /* ViewController.h */,
 				A75B71FD1C6B397000F6D65F /* ViewController.m */,
+				A7AE677B1C74C4B50065615C /* AddPersonViewController.h */,
+				A7AE677C1C74C4B50065615C /* AddPersonViewController.m */,
 				A75B72151C6B4C7A00F6D65F /* IndividuDelegate.h */,
-				A70D7D2B1C6B8A04001B7130 /* Person+PersonAdditions.h */,
-				A70D7D2C1C6B8A04001B7130 /* Person+PersonAdditions.m */,
 				A75B72161C6B576700F6D65F /* Person.h */,
 				A75B72171C6B576700F6D65F /* Person.m */,
 				A75B71FF1C6B397000F6D65F /* Main.storyboard */,
@@ -167,9 +167,9 @@
 				A75B71FE1C6B397000F6D65F /* ViewController.m in Sources */,
 				A75B72041C6B397000F6D65F /* DABFormation1.xcdatamodeld in Sources */,
 				A75B72181C6B576700F6D65F /* Person.m in Sources */,
-				A70D7D2D1C6B8A04001B7130 /* Person+PersonAdditions.m in Sources */,
 				A75B71FB1C6B397000F6D65F /* AppDelegate.m in Sources */,
 				A75B71F81C6B397000F6D65F /* main.m in Sources */,
+				A7AE677D1C74C4B50065615C /* AddPersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
